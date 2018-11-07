@@ -1,0 +1,18 @@
+<h1>welcome to your fake airbnb app !</h1>
+
+
+<h3>there are <%= @flats.length %> flats so far </h3>
+
+<div class="flats">
+  <% @flats.each do |flat| %>
+    <div class="flat-card">
+      <%= link_to flat_path(flat) do %>
+        <h6><%= flat.city %></h6>
+        <h4><%= flat.name %></h4>
+        <!-- <p><%= flat.description[0..60]%> (...)</p> -->
+        <p><%= flat.price_per_night %> $/night</p>
+        <p><%= flat.number_of_guests %> max</p>
+      <% end %>
+    </div>
+  <% end %>
+</div>

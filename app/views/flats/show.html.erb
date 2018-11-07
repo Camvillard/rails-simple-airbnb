@@ -1,0 +1,17 @@
+<div class="flat-header">
+  <h6><%= @flat.city %></h6>
+  <h3><%= @flat.name %></h3>
+</div>
+
+<div class="flat-description">
+  <p><%= @flat.description %></p>
+  <p><%= @flat.price_per_night %>$/night</p>
+  <p><%= @flat.number_of_guests %> maximum guests</p>
+</div>
+
+<div class="flat-actions">
+  <ul>
+    <li><%= link_to 'edit', edit_flat_path(@flat) %></li>
+    <li><%= link_to 'delete', flat_path(@flat), method: :delete %></li>
+  </ul>
+</div>
