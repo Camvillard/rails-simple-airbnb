@@ -9,7 +9,8 @@ flats_infos = [
     Il est composé d'une entrée, d'un séjour-salon avec BZ de 160 x 200cm (matelas de haute qualité), d'une TV écran plat, d'un coin cuisine entièrement équipé (plaques vitro-céramiques, micro-ondes (avec une fonction four), réfrigérateur avec compartiment congélateur, tous ustensiles de cuisine), d'une salle de douche, avec WC et lave-linge.",
     price_per_night: 45,
     number_of_guests: 4,
-    city: "Biarritz"
+    city: "Biarritz",
+    image_path: "./app/assets/images/madrid.jpg"
   },
   {
     name: "Cute appartment, ideal for families",
@@ -21,7 +22,8 @@ flats_infos = [
     Boutiques, restos, bars à proximité.",
     price_per_night: 65,
     number_of_guests: 6,
-    city: "Bordeaux"
+    city: "Bordeaux",
+    image_path: "./app/assets/images/madrid.jpg"
   },
   {
     name: "Adorable studio in a cute 'hood",
@@ -32,7 +34,8 @@ flats_infos = [
     Maison entièrement rénovée. Vous pourrez profiter de la terrasse pour prendre votre café, déjeuner ou dîner à l'extérieur.",
     price_per_night: 35,
     number_of_guests: 2,
-    city: "Paris"
+    city: "Paris",
+    image_path: "./app/assets/images/madrid.jpg"
   },
   {
     name: "Amazing house in the heart of the city",
@@ -42,7 +45,8 @@ flats_infos = [
     Located by the Puerta del Sol, Madrid's historic center, surrounded by restaurants and traditional shops, very close to major attractions such as Plaza Mayor, Palacio Real and the Mercado de San Miguel, walkable distance to monuments and museums of Madrid." ,
     price_per_night: 105,
     number_of_guests: 6,
-    city: "Madrid"
+    city: "Madrid",
+    image_path: "./app/assets/images/madrid.jpg"
   },
   {
     name: "Beautiful apartment, amazing light.",
@@ -51,7 +55,8 @@ flats_infos = [
     Cet espace unique est parfait pour les amis et une famille qui veulent passer un séjour calme et de qualité au centre de tout sur le Plateau." ,
     price_per_night: 45,
     number_of_guests: 4,
-    city: "Montreal"
+    city: "Montreal",
+    image_path: "./app/assets/images/madrid.jpg"
   }
 ]
 

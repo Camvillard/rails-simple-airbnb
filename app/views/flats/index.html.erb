@@ -1,15 +1,16 @@
-<h1>welcome to your fake airbnb app !</h1>
-
-
-<h3>there are <%= @flats.length %> flats so far </h3>
+<div id="header">
+  <h1>welcome to your fake airbnb app !</h1>
+  <h3>there are <%= @flats.length %> flats so far </h3>
+</div>
 
 <div class="flats">
   <% @flats.each do |flat| %>
-    <div class="flat-card">
+    <div class="flat-card background-image" data-background="https://unsplash.com/photos/RxEHnSDyH5I">
       <%= link_to flat_path(flat) do %>
+
         <h6><%= flat.city %></h6>
         <h4><%= flat.name %></h4>
-        <!-- <p><%= flat.description[0..60]%> (...)</p> -->
+        <p><%= flat.address %></p>
         <p><%= flat.price_per_night %> $/night</p>
         <p><%= flat.number_of_guests %> max</p>
       <% end %>

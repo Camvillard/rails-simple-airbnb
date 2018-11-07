@@ -1,0 +1,10 @@
+div[data-background]::before {
+content: url(data-background url);
+// content: attr(data-background url);
+border: 3px solid red;
+}
+
+
+// div[data-test]::before {
+//   content: attr(data-background url);
+// }
